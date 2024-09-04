@@ -76,8 +76,8 @@ export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
 
 /* PROVIDER */
 export default function StoreProvider({
-                                          children,
-                                      }: {
+    children,
+}: {
     children: React.ReactNode;
 }) {
     const storeRef = useRef<AppStore>();

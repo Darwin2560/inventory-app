@@ -80,7 +80,7 @@ const Sidebar = () => {
                     isCollapsed={isSidebarCollapsed}
                 />
                 <SidebarLink
-                    href="/Products"
+                    href="/products"
                     icon={Clipboard}
                     label="Products"
                     isCollapsed={isSidebarCollapsed}

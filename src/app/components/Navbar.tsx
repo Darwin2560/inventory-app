@@ -63,7 +63,7 @@ const Navbar = () => {
                         <span className="font-semibold">Darwin</span>
                     </div>
                 </div>
-                <Link href={`/setting`}>
+                <Link href={`/settings`}>
                     <Settings className="cursor-pointer text-gray-500" size={24}/>
                 </Link>
             </div>
